@@ -1,20 +1,51 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+title: Blog
+default_author: minjun
+description: "Hello World"  # used in site head
 
-# Sidebar settings
-description: One sentence introducing yourself or what you do
+# register on google analytics and replace this token
+# google track ID 추가 
+google_analytics: UA-108098306-1
+# disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
+# Deleting the value would remove it from footer.
+disqus_url: disqus.com/by/minjunju
+disqus_id: minjujublog
+# register on feedburner and replace this url. Deleting the value will remove it from footer.
+feedburner_url: #https://feedburner.google.com/fb/a/mailverify?uri=programmer-wannabe&amp;loc=en_US
 
-# Social icons
-facebook: username
-linkedin: username
-github: username
-deviantart: username
-codepen: username
+# footer details. Deleting the value would remove it from footer.
+github_username:  devminjun
+facebook_username: devminjun
+email: dev.mjun@gmail.com
+stackoverflow_username: 8601335/minjunju?tab=profile
+#twitter_username : shikherverma42
+#linkedin_username : shikherverma42
+#keybase_username : shikherverma
+copyright_name: minjun
+rss : true
 
-footer: © Taken theme
+# used for portfolio on home page
+collections:
+  - portfolio
+
+# used to estimate reading time
+wpm: 150
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+port: 8888
+permalink: /blog/:title
+
+# jekyll-paginate. for paginating blog posts.
+paginate: 20
+paginate_path: blog/page:num
+
+
+# gem dependencies
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+
+# search_google
+google-site-verification: googlee83f7bf87778e4a8.html
+
