@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Econtent"
+date:   2016-05-12 22:02:01 -0500
+comments: true
+categories: jekyll
+---
+
 # Domain Adaprive Faster R-CNN for Object Detection in the Wild
 
 
