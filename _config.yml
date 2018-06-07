@@ -1,6 +1,6 @@
 # Site settings
 title: Blog
-default_author: minjun
+default_author: dohyeon
 description: "Hello World"  # used in site head
 
 # register on google analytics and replace this token
@@ -14,14 +14,14 @@ disqus_id: minjujublog
 feedburner_url: #https://feedburner.google.com/fb/a/mailverify?uri=programmer-wannabe&amp;loc=en_US
 
 # footer details. Deleting the value would remove it from footer.
-github_username:  devminjun
-facebook_username: devminjun
-email: dev.mjun@gmail.com
-stackoverflow_username: 8601335/minjunju?tab=profile
+github_username:  ppooiiuuyh
+facebook_username: ppooiiuuyh
+email: dohyeon.cau@gmail.com
+#stackoverflow_username: 
 #twitter_username : shikherverma42
 #linkedin_username : shikherverma42
 #keybase_username : shikherverma
-copyright_name: minjun
+copyright_name: dohyeon
 rss : true
 
 # used for portfolio on home page
